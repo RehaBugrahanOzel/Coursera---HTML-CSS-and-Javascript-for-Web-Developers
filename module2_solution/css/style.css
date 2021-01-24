@@ -19,6 +19,24 @@ div{
     float: left;
     
 }
+
+@media (min-width:992px){
+    div{
+        width: 540px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    #sushi{
+        width:1080px
+    }
+}
+@media (max-width:767){
+    div{
+        width: 540px;
+    }
+}
+
+
 #chicken h2{
     background-color: rgb(255, 190, 129);
     
