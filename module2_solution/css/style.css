@@ -1,6 +1,51 @@
-p{
-    color:rgb(0, 0, 0);
-    border: 1px solid black;
-    background-color: grey ;
-    width: 1000px;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    
 }
+
+h1{
+    text-align: center;
+    padding: 20px;
+    margin: 50px 50px 0px 50px;
+}
+div{
+    border: 5px solid black;
+    
+    margin: 50px;
+    width: 540px;
+    float: left;
+    
+}
+#chicken h2{
+    background-color: rgb(255, 190, 129);
+    
+}
+#beef h2{
+    background-color: rgb(212, 61, 61);
+    color: white;
+}
+#sushi h2{
+    background-color: rgb(255, 239, 98);
+}
+div p{
+    padding: 40px 20px 20px 20px;
+    height: 172px;
+    background-color: grey;
+}
+
+div h2{
+    text-align: center;
+    margin: -5px;
+    border: 5px solid black;
+    padding: 0px 20px 0px 20px;
+    width: 140px;
+    float: right;
+    clear: left;
+    
+}
+
+
+
