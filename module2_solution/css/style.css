@@ -1,4 +1,5 @@
 *{
+    
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -7,12 +8,15 @@
 }
 
 h1{
+
     text-align: center;
     padding: 20px;
     margin: 50px 50px 0px 50px;
+
 }
 
 div h2{
+
     text-align: center;
     margin: -5px;
     border: 5px solid black;
@@ -24,47 +28,69 @@ div h2{
 }
 
 div p{
+
     padding: 40px 20px 20px 20px;
     
     background-color: grey;
 }
 
 #chicken h2{
+
     background-color: rgb(255, 190, 129);
     
 }
+
 #beef h2{
+
     background-color: rgb(212, 61, 61);
     color: white;
 }
+
 #sushi h2{
+
     background-color: rgb(255, 239, 98);
+
 }
+
 div{
+
     border: 5px solid black;
     margin: 10px;
     float: left;
+
 }
 
 @media (min-width:992px){
+
     div{
        
         width: 550px;
         margin: 40px;
         
     }
+
 }
+
 @media (min-width:768px) and (max-width:991px){
    
     div#chicken{
+
         width: 364px;
+
     }
+
     div#beef{
+
         width: 364px;
+
     }
+
     div#sushi{
+
         width: 768px;
+
     }
+
 }
 
 
